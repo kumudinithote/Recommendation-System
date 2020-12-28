@@ -19,6 +19,7 @@ Step 3 - Check output.txt file for output.
 
 
 Steps of the Algorithm Implemented: -
+
 •	Firstly, user-item matrix construction: - Convert and input a data into user-item rating matrix.
 
 •	Secondly, Similarity computation: - To find the similarity between the user first calculated the cosined distance between the user and then implemented cosined similarity Algorithm.
