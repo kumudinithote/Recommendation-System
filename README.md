@@ -20,10 +20,15 @@ Step 3 - Check output.txt file for output.
 
 Steps of the Algorithm Implemented: -
 •	Firstly, user-item matrix construction: - Convert and input a data into user-item rating matrix.
+
 •	Secondly, Similarity computation: - To find the similarity between the user first calculated the cosined distance between the user and then implemented cosined similarity Algorithm.
-•	Thirdly, neighborhood selection: - according to the result from the similarity ranking between users, the optimal k-nearest neighbors are selected to implement the predicted set. 
+
+•	Thirdly, neighborhood selection: - according to the result from the similarity ranking between users, the optimal k-nearest neighbors are selected to implement the predicted set.
+
 •	For the prediction, find K -nearest neighbors, here I have taken 30 neighbors by sorting the vales of cosined distance in the decreasing order.
+
 •	Finally, rating prediction and item recommendation: - after obtaining the nearest neighbors set of the target user, we use the similarity as a weight to get the target user's forecast of the unrated item and form a Top-N list to recommend to the user.
+
 •	With the help of K -nearest neighbors, calculated the weighted average of deviations from neighbors mean to find the final prediction for the item rating from the user using the following formulae.
 
 Reference:
